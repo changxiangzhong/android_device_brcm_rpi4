@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# hi
 #IN_IMAGE_DIR=$OUT_DIR/target/product/rpi4/
 #IN_BOOT_FILES=$ANDROID_BUILD_TOP/vendor/brcm/rpi4/proprietary/boot/
 #OUT_IMAGE_FILE=$HOME/raspberrypi/omni-$ROM_BUILDTYPE.img
@@ -105,21 +105,21 @@ echo "mount partitions"
 sudo kpartx -av "$OUT_IMAGE_FILE"
 
 echo "create file systems"
-sudo mkfs.vfat /dev/mapper/loop0p1 -n boot
-sudo mkfs.ext4 /dev/mapper/loop0p2 -L system
-sudo mkfs.ext4 /dev/mapper/loop0p3 -L vendor
-sudo mkfs.ext4 /dev/mapper/loop0p4 -L userdata
-#echo "enable project quota"
-#sudo tune2fs -O project,quota /dev/mapper/loop0p4
+sudo mkfs.vfat /dev/mapper/loop36p1 -n boot
+sudo mkfs.ext4 /dev/mapper/loop36p2 -L system
+sudo mkfs.ext4 /dev/mapper/loop36p3 -L vendor
+sudo mkfs.ext4 /dev/mapper/loop36p4 -L userdata
+echo "enable project quota"
+sudo tune2fs -O project,quota /dev/mapper/loop36p4
 
 echo "write system.img"
-sudo dd if="$IN_IMAGE_DIR/system.img" of=/dev/mapper/loop0p2 bs=1M
+sudo dd if="$IN_IMAGE_DIR/system.img" of=/dev/mapper/loop36p2 bs=1M
 echo "write vendor.img"
-sudo dd if="$IN_IMAGE_DIR/vendor.img" of=/dev/mapper/loop0p3 bs=1M
+sudo dd if="$IN_IMAGE_DIR/vendor.img" of=/dev/mapper/loop36p3 bs=1M
 
 echo "write boot patition"
 sudo mkdir /mnt/tmp
-sudo mount /dev/mapper/loop0p1 /mnt/tmp
+sudo mount /dev/mapper/loop36p1 /mnt/tmp
 sudo cp "$IN_IMAGE_DIR/ramdisk.img" /mnt/tmp/
 sudo cp "$IN_IMAGE_DIR/obj/KERNEL_OBJ/arch/arm64/boot/Image" /mnt/tmp/Image
 sudo cp "$IN_IMAGE_DIR/obj/KERNEL_OBJ/arch/arm64/boot/dts/broadcom/bcm2711-rpi-4-b.dtb" /mnt/tmp/
