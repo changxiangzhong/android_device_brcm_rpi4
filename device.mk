@@ -21,6 +21,28 @@ include frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
+# ADB Key
+PRODUCT_ADB_KEYS := /home/chang/.android/adbkey.pub
+
+ifeq ($(wildcard $(PRODUCT_ADB_KEYS)),)
+  $(warning ========================)
+  $(warning The adb key for this release)
+  $(warning )
+  $(warning   $(PRODUCT_ADB_KEYS))
+  $(warning )
+  $(warning does not exist. Most likely PLATFORM_VERSION in build/core/version_defaults.mk)
+  $(warning has changed and a new adb key needs to be generated.)
+  $(warning )
+  $(warning Please run the following commands to create a new key:)
+  $(warning )
+  $(warning   make -j8 adb)
+  $(warning   LOGNAME=android-eng HOSTNAME=google.com adb keygen $(patsubst %.pub,%,$(PRODUCT_ADB_KEYS)))
+  $(warning )
+  $(warning and upload/review/submit the changes)
+  $(warning ========================)
+  $(error done)
+endif
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
