@@ -1,0 +1,1000 @@
+ 1020  echo ${ROM_BUILDTYPE}
+ 1021  echo ${TEMPORARY_DISABLE_PATH_RESTRICTIONS}
+ 1022  source build/envsetup.sh 
+ 1023  lunch omni_rpi4-userdebug
+ 1024  exit
+ 1025  fg
+ 1026  exit
+ 1027  cd ~/git-root/
+ 1028  ls
+ 1029  git clone https://partner-android.googlesource.com/platform/vendor/google/tv/broadcaststack
+ 1030  eval 'set +o history' 2>/dev/null || setopt HIST_IGNORE_SPACE 2>/dev/null
+ 1031  git clone https://partner-android.googlesource.com/platform/vendor/google/tv/broadcaststack
+ 1032  ls
+ 1033  cd broadcaststack/
+ 1034  ls
+ 1035  git status
+ 1036  git branch
+ 1037  git remote -vv
+ 1038  git pull
+ 1039  git branch
+ 1040  git fetch
+ 1041  git pull
+ 1042  git branch
+ 1043  git fetch
+ 1044  git branch -a
+ 1045  git checout --track origin/q-tv-dev
+ 1046  git checkout --track origin/q-tv-dev
+ 1047  ls
+ 1048  tree .
+ 1049  ls
+ 1050  clear
+ 1051  ls
+ 1052  ndk-build
+ 1053  ~/Android/Sdk/ndk
+ 1054  ls
+ 1055  ls ~/Android/Sdk/ndk
+ 1056  ls
+ 1057  tree -L 2
+ 1058  cd libs/
+ 1059  ls
+ 1060  cd dtvplayer/
+ 1061  ls
+ 1062  ./gradlew  tasks
+ 1063  ls
+ 1064  ./gradlew --all
+ 1065  ./gradlew tasks -a
+ 1066  ls
+ 1067  cd dtvplayer-api/
+ 1068  ls
+ 1069  cd src/
+ 1070  ls
+ 1071  tree
+ 1072  cd main/java/com/google/android/tv/dtvplayer/
+ 1073  ls
+ 1074  vi DtvPlayer.java 
+ 1075  vi DtvPlay
+ 1076  vi DtvPlayer.java 
+ 1077  ls
+ 1078  cd ..
+ 1079  ls
+ 1080  cd ../../../../
+ 1081  ls
+ 1082  cd ..
+ 1083  ls
+ 1084  cd ..
+ 1085  ls
+ 1086  cd main/
+ 1087  ls
+ 1088  cd ../..
+ 1089  ls
+ 1090  cd ..
+ 1091  ls
+ 1092  cd ..
+ 1093  ls
+ 1094  cd sipsi/
+ 1095  ls
+ 1096  cd sipsi-library/src/main/java/com/google/android/tv/sipsi/
+ 1097  ls
+ 1098  cd ~
+ 1099  ls
+ 1100  vi ~/Downloads/Wake\ up\ Box\ from\ Standby\ fail\ to\ tune\ to\ DVB\ channel.txt 
+ 1101  clear
+ 1102  avahi-browse -apt
+ 1103  cd git-root/leixiaohua-ffmpeg/
+ 1104  ls
+ 1105  cd CDxFFmpeg/
+ 1106  ls
+ 1107  cat play_cd_trailer.sh 
+ 1108  ./play_cd_trailer.sh 
+ 1109  cat play_cd_trailer.sh 
+ 1110  ssh -p 30002 pi@cxz.mynetgear.com
+ 1111  exit
+ 1112  cd bulk/
+ 1113  ls
+ 1114  cd aosp_10/
+ 1115  ls
+ 1116  repo sync
+ 1117  source build/envsetup.sh 
+ 1118  hmm
+ 1119  lunch
+ 1120  make -j12
+ 1121  ls build/make/target/product/
+ 1122  emulator
+ 1123  cd build/
+ 1124  ls
+ 1125  find ./ -name *.bin
+ 1126  cd ..
+ 1127  find ./ -name *.bin
+ 1128  sudo apt-get install qemu-kvm 
+ 1129  sudo adduser change kvm
+ 1130  sudo adduser chang kvm
+ 1131  emulator
+ 1132  id
+ 1133  id|grep kvm
+ 1134  su
+ 1135  su ls
+ 1136  sudo ls
+ 1137  id
+ 1138  cd build/
+ 1139  ls
+ 1140  tree .
+ 1141  tree |grep system
+ 1142  tree |grep img
+ 1143  cd ..
+ 1144  ls
+ 1145  cd out/
+ 1146  cd target/
+ 1147  ls
+ 1148  find ./ -name *.bin
+ 1149  find ./ -name *system*
+ 1150  ls
+ 1151  cd product/vsoc_x86/
+ 1152  ls
+ 1153  ls -all *.img
+ 1154  ls -lh *.img
+ 1155  file system.img 
+ 1156  unyafss
+ 1157  sudo apt-get install unyaffs
+ 1158  man unyaffs
+ 1159  cd /tmp/
+ 1160  ls
+ 1161  mkdir ~/Desktop/aosp_imgs
+ 1162  cd ~/Desktop/aosp_imgs/
+ 1163  cd ~/bulk/aosp_10/out/target/product/vsoc_x86/
+ 1164  ls
+ 1165  cp ./*.img ~/Desktop/aosp_imgs/
+ 1166  cd ~/Desktop/aosp_imgs/
+ 1167  ls
+ 1168  file system.img 
+ 1169  mkdir ./mount
+ 1170  mount ./system.img ./mount/
+ 1171  sudo mount ./system.img ./mount/
+ 1172  cd mount/
+ 1173  ls
+ 1174  cd system/ap
+ 1175  cd system/app/
+ 1176  ls
+ 1177  echo hello>hello.txt
+ 1178  exit
+ 1179  cd ~/Desktop/
+ 1180  ls
+ 1181  file payload.bin 
+ 1182  ls
+ 1183  exit
+ 1184  cd bulk/
+ 1185  ls
+ 1186  cd movie/
+ 1187  ls
+ 1188  cd ..
+ 1189  ls
+ 1190  cd music/
+ 1191  ls
+ 1192  tree .
+ 1193  ls
+ 1194  cd ..
+ 1195  ls
+ 1196  rm -rf music/
+ 1197  cd git-root/broadcaststack/
+ 1198  ls
+ 1199  cd libs/dtvplayer/
+ 1200  ls
+ 1201  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1202  ls
+ 1203  vi DtvChannelInfo.java 
+ 1204  vi DtvPlayer.java 
+ 1205  cd ../../..
+ 1206  ls
+ 1207  cd ../../../../..
+ 1208  ls
+ 1209  cd .
+ 1210  cd ../
+ 1211  cd ..
+ 1212  find ./ -name *demo* 
+ 1213  history 
+ 1214  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1215  cd libs/
+ 1216  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1217  ls
+ 1218  dtvplayer/
+ 1219  ls
+ 1220  cd dtvrecorder/
+ 1221  ls
+ 1222  cd library/src/javadoc/
+ 1223  ls
+ 1224  tre .
+ 1225  tree .
+ 1226  cd uml/
+ 1227  ls
+ 1228  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1229  java -testdot -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1230  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1231  java -jar ~/Downloads/plantuml.1.2020.19.jar  -testdot
+ 1232  git status
+ 1233  nautilus .
+ 1234  git status
+ 1235  rm -rf DtvRecorder_states.png 
+ 1236  git status
+ 1237  exit
+ 1238  cd git-root/ngp/
+ 1239  git branch
+ 1240  git checkout release/1.0.95000
+ 1241  exit
+ 1242  cd git-root/broadcaststack/
+ 1243  ls
+ 1244  cd libs/
+ 1245  ls
+ 1246  cd dtvrecorder/
+ 1247  ls
+ 1248  cd library/src/main/java/com/google/android/tv/dtvrecorder/
+ 1249  ls
+ 1250  cd ./..
+ 1251  ls
+ 1252  cd ../..
+ 1253  ls
+ 1254  cd ../
+ 1255  ls
+ 1256  cd ../../../
+ 1257  ls
+ 1258  cd ../
+ 1259  ls
+ 1260  cd ..
+ 1261  ls
+ 1262  find ./ -name *api*
+ 1263  cd dtvrecorder/library/src/main/java/com/google/android/tv/dtvrecorder/
+ 1264  ls
+ 1265  cat package-info.java 
+ 1266  ls
+ 1267  vi DtvRecorder.java 
+ 1268  ls
+ 1269  vi DtvRecorder.java 
+ 1270  cd ~/Downloads/
+ 1271  find ./ -name *0004-Revert-Ignores-protected-broadcasts-if-not-priv-app-.bulletin.patch*
+ 1272  vi ./bulletin_2020_09_preview/patches/android-9.0.0_r1/platform/frameworks/base/0004-Revert-Ignores-protected-broadcasts-if-not-priv-app-.bulletin.patch
+ 1273  cd ~/bulk/
+ 1274  cd aosp_10/
+ 1275  ls
+ 1276  cd frameworks/ser
+ 1277  cd frameworks/
+ 1278  ls
+ 1279  cd  ..
+ 1280  find ./ -name AndroidPackage.java
+ 1281  cd frameworks/
+ 1282  find ./ -name AndroidPackage.java
+ 1283  adb disconnect
+ 1284  cdd ~
+ 1285  cd ~
+ 1286  ls
+ 1287  adb connect 192.168.101.17
+ 1288  adb shell
+ 1289  adb pull /sdcard/Download/SCIService.apk
+ 1290  mkdir ~/Desktop/sci
+ 1291  cd ~/Desktop/sci/
+ 1292  ls
+ 1293  mv ~/SCIService.apk ./
+ 1294  ls
+ 1295  unzip SCIService.apk 
+ 1296  nautilus .
+ 1297  vi AndroidManifest.xml 
+ 1298  adb shell
+ 1299  nautilus .
+ 1300  adb shell
+ 1301  fg
+ 1302  ls
+ 1303  adb pull /sdcard/Download/base.apk ./
+ 1304  ls
+ 1305  mv base.apk netflix.apk
+ 1306  nautilus .
+ 1307  history 
+ 1308  cd bulk/omni-aosp
+ 1309  ls
+ 1310  ls .repo/local_manifests/
+ 1311  nautilus .repo/local_manifests/
+ 1312  cd ..
+ 1313  ls
+ 1314  cd aosp_10/
+ 1315  ls
+ 1316  lunch
+ 1317  source  build/envsetup.sh 
+ 1318  exit
+ 1319  cd bulk/omni-aosp-full/
+ 1320  ls
+ 1321  vi .repo/local_manifests/local_manifest_full.xml 
+ 1322  ls
+ 1323  repo sync
+ 1324  exit
+ 1325  cd bulk/
+ 1326  ls
+ 1327  df
+ 1328  df -lh
+ 1329  cd omni-aosp
+ 1330  ls
+ 1331  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11
+ 1332  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11 vendor/brcm/
+ 1333  cd vendor/brcm/rpi4/
+ 1334  ls
+ 1335  cd ..
+ 1336  ls
+ 1337  cd ..
+ 1338  ls
+ 1339  lunch
+ 1340  ls
+ 1341  export ROM_BUILDTYPE=MICROG
+ 1342  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1343  source build/envsetup.sh 
+ 1344  lunch omni_rpi4-userdebug
+ 1345  repo sync
+ 1346  vi .repo/local_manifests/roomservice.xml 
+ 1347  rm -rf vendor/brcm/rpi4/
+ 1348  ls
+ 1349  repo sync
+ 1350  repo sync --force-sync
+ 1351  lunch omni_rpi4-userdebug
+ 1352  make -j 12
+ 1353  brunch omni_rpi4-userdebug
+ 1354  ls /home/chang/bulk/omni-aosp/out/target/product/rpi4/
+ 1355  vi .repo/local_manifests/local_manifest.xml 
+ 1356  cd vendor/microg/
+ 1357  ls
+ 1358  tree .
+ 1359  cd ../../
+ 1360  ls
+ 1361  history 
+ 1362  make -j 12
+ 1363  cd ../
+ 1364  ls
+ 1365  cd omni-aosp-full/
+ 1366  repo sync
+ 1367  cd ../omni-aosp
+ 1368  ls
+ 1369  vi external/mesa3d/src/compiler/spirv/spirv_info_c.py 
+ 1370  fg
+ 1371  vi external/mesa3d/src/compiler/nir/nir_builder_opcodes_h.py
+ 1372  pip install Mako
+ 1373  pip --version
+ 1374  make -j 12
+ 1375  history > ~/Desktop/omni-rpi-aosp.history
+ 1376  sudo halt -p
+ 1377  cd bulk/
+ 1378  ls
+ 1379  cd aosp_10/
+ 1380  ls
+ 1381  source  build/envsetup.sh 
+ 1382  lunch
+ 1383  cd bulk/
+ 1384  ls
+ 1385  cd omni-aosp/
+ 1386  ls
+ 1387  source build/envsetup.sh 
+ 1388  lunch 
+ 1389  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1390  java -jar ~/Downloads/plantuml.1.2020.19.jar  --help
+ 1391  cd .repo/manifests
+ 1392  ls
+ 1393  vi default.xml 
+ 1394  cd ..
+ 1395  ls
+ 1396  cd local_manifests/
+ 1397  ls
+ 1398  lw
+ 1399  ls
+ 1400  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest_full.xml
+ 1401  ls
+ 1402  cd ../..
+ 1403  ls
+ 1404  repo sync
+ 1405  find ./ -name *Provision* 
+ 1406  find ./ -name *mesa3d*
+ 1407  vi .repo/local_manifests/local_manifest_full.xml 
+ 1408  repo sync
+ 1409  repo sync --force-sync
+ 1410  history 
+ 1411  source build/envsetup.sh 
+ 1412  lunch omni_rpi4-userdebug
+ 1413  brunch omni_rpi4-userdebug
+ 1414  repo sync
+ 1415  lunch
+ 1416  find ./ -name "gralloc" 
+ 1417  df -lh
+ 1418  cd ..
+ 1419  ls
+ 1420  ls -all
+ 1421  cd ~/git-root/rcu-ota-gui/
+ 1422  ls
+ 1423  cd ~/Desktop/torstein_hdmi_cec/
+ 1424  ls
+ 1425  vi log_dump_2020_11_04_03_57_54.log 
+ 1426  cd ~/git-root/rcu-ota-gui/
+ 1427  ls
+ 1428  git diff
+ 1429  git status
+ 1430  git diff
+ 1431  ./gradlew tasks
+ 1432  ./gradlew assemble
+ 1433  find ./ -name *.apk
+ 1434  cp ./app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111182853.apk ~/Desktop/FW03-OmniOTA-release_2.0.1-20201111182853.apk
+ 1435  git diff
+ 1436  ./gradlew clean assemble
+ 1437  find ./ -name *.apk
+ 1438  ./gradlew clean assemble
+ 1439  find ./ -name *.apk
+ 1440  cp ./app/build/outputs/apk/release/OmniOTA-release_2.0.1-20201111183106.apk ~/Desktop/FW05-OmniOTA-release_2.0.1-20201111183106.apk
+ 1441  cd ~/Desktop/
+ 1442  ls
+ 1443  mkdir OmniOTA
+ 1444  cd OmniOTA/
+ 1445  mv ../FW0* ./
+ 1446  ls
+ 1447  adb install FW05-OmniOTA-release_2.0.1-20201111183106.apk 
+ 1448  ls
+ 1449  rm -rf ./*
+ 1450  cp ~/git-root/rcu-ota-gui/app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111183106.apk ./FW05-OmniOTA-release_2.0.1-20201111183106.apk 
+ 1451  ls
+ 1452  cd -
+ 1453  cd ~/git-root/rcu-ota-gui/
+ 1454  ls
+ 1455  ./gradlew clean assemble
+ 1456  git diff
+ 1457  find ./ -name *.apk
+ 1458  cp ./app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111184340.apk ~/Desktop/OmniOTA/FW03-OmniOTA-release_2.0.1-20201111184340.apk
+ 1459  cd ~/Desktop/OmniOTA/
+ 1460  ls
+ 1461  adb logcat -c
+ 1462  adb logcat > ./ota_failed.log
+ 1463  vi ota_failed.log 
+ 1464  ls
+ 1465  adb logcat -c 
+ 1466  adb logcat > ota_failed2.log
+ 1467  vi ota_failed2.log 
+ 1468  adb disconnect
+ 1469  adb connect 192.168.101.6
+ 1470  adb connect 192.168.101.18
+ 1471  adb connect 192.168.101.5
+ 1472  adb connect 192.168.101.4
+ 1473  adb shell
+ 1474  ls
+ 1475  cd ~/bulk/
+ 1476  ls
+ 1477  cd omni-aosp/
+ 1478  ls
+ 1479  history 
+ 1480  cd ..
+ 1481  ls
+ 1482  rm -rf omni-aosp/
+ 1483  adb shell input Trumpisidiot123
+ 1484  adb shell input text Trumpisidiot123
+ 1485  ls
+ 1486  clear
+ 1487  mkdir omni-aosp
+ 1488  cd omni-aosp/
+ 1489  ls
+ 1490  repo init -u git://github.com/omnirom/android.git -b android-11
+ 1491  mkdir .repo/local_manifests
+ 1492  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest.xml -P .repo/local_manifests/
+ 1493  repo sync
+ 1494  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1495  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1496  lunch omni_rpi4-userdebug
+ 1497  history 
+ 1498  export ROM_BUILDTYPE=MICROG
+ 1499  source build/envsetup.sh
+ 1500  history 
+ 1501  lunch omni_rpi4-userdebug
+ 1502  ls .repo/local_manifests/
+ 1503  cd ../
+ 1504  ls
+ 1505  mkdir omni-rpi4-aosp
+ 1506  mv omni-rpi4-aosp/ omni-aosp-full
+ 1507  cd omni-aosp-full/
+ 1508  ls
+ 1509  repo init -u git://github.com/omnirom/android.git -b android-11
+ 1510  mkdir .repo/local_manifests
+ 1511  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest_full.xml -P .repo/local_manifests/
+ 1512  repo sync
+ 1513  vi .repo/local_manifests/local_manifest_full.xml 
+ 1514  clear
+ 1515  repo sync
+ 1516  ls
+ 1517  mkdir bulk
+ 1518  mkdir bulk2
+ 1519  ls
+ 1520  vi /etc/fstab
+ 1521  sudo vi /etc/fstab
+ 1522  reboot
+ 1523  cd bulk2/aosp-omni-rpi4/
+ 1524  ls
+ 1525  cat .repo/local_manifests/roomservice.xml 
+ 1526  exit
+ 1527  ls
+ 1528  cd bulk2/
+ 1529  ls
+ 1530  rm -rf lost+found/
+ 1531  ls
+ 1532  mkdir aosp-omni-rpi4
+ 1533  cd aosp-omni-rpi4/
+ 1534  repo init -u git://github.com/omnirom/android.git -b android-11
+ 1535  mkdir .repo/local_manifests
+ 1536  ls
+ 1537  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest.xml -P .repo/local_manifests/
+ 1538  cat .repo/local_manifests/local_manifest.xml 
+ 1539  repo sync
+ 1540  export ROM_BUILDTYPE=MICROG
+ 1541  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1542  export ROM_BUILDTYPE=MICROG
+ 1543  export ALLOW_MISSING_DEPENDENCIES=true
+ 1544  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1545  source build/envsetup.sh
+ 1546  echo ${PRODUCT_EXCLUDE_EXTRA_PACKAGES}
+ 1547  source build/envsetup.sh
+ 1548  lunch omni_rpi4-userdebug
+ 1549  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11 vendor/brcm/
+ 1550  lunch omni_rpi4-userdebug
+ 1551  rm -rf vendor/brcm/rpi4/
+ 1552  repo sync --force-sync
+ 1553  lunch omni_rpi4-userdebug
+ 1554  make -j 12
+ 1555  history 
+ 1556  history > ../aosp_omni_rpi4.history
+ 1557  vi ../aosp_omni_rpi4.history 
+ 1558  ls
+ 1559  cd out/target/product/rpi4/
+ 1560  ls
+ 1561  ls -all ./*.img
+ 1562  ls -lh ./*.img
+ 1563  df -lh
+ 1564  avahi-browse
+ 1565  avahi-browse -apt
+ 1566  adb shell pi@192.168.101.28
+ 1567  ssh pi@192.168.101.28
+ 1568  sudo fdisk -l
+ 1569  sudo fdisk /dev/sdb
+ 1570  fdisk -l
+ 1571  sudo fdisk -l
+ 1572  sudo fdisk -l|grep sda
+ 1573  sudo fdisk -l|grep sdb
+ 1574  tune2fs -O project,quota /dev/sdb4
+ 1575  sudo tune2fs -O project,quota /dev/sdb4
+ 1576  mkfs.extfat -n boot  /dev/sdb1
+ 1577  sudo apt-get install extfat-utils
+ 1578  sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+ 1579  sudo add-apt-repository universe
+ 1580  sudo apt-get install extfat-utils
+ 1581  sudo apt-get update 
+ 1582  sudo apt-get upgrade 
+ 1583  sudo fdisk -l|grep sdb
+ 1584  mkfs.vfat
+ 1585  man mkfs.fat
+ 1586  sudo mkfs.fat  -f 32 -n boot /dev/sdb1
+ 1587  sudo mkfs.fat  -n boot /dev/sdb1
+ 1588  sudo fdisk -l|grep sdb
+ 1589  mkfs.ext4 -L system /dev/sdb2
+ 1590  sudo mkfs.ext4 -L system /dev/sdb2
+ 1591  sudo mkfs.ext4 -L vendor /dev/sdb3
+ 1592  sudo mkfs.ext4 -L userdata /dev/sdb4
+ 1593  sudo fdisk /dev/sdb
+ 1594  sudo fdisk -l|grep sdb
+ 1595  tune2fs -O project,quota /dev/sdb4
+ 1596  sudo tune2fs -O project,quota /dev/sdb4
+ 1597  ls
+ 1598  ls ./*.img
+ 1599  ls -al ./*.img
+ 1600  ls -lh ./*.img
+ 1601  dd if=./boot-debug.img of=/dev/sdb1
+ 1602  sudo dd if=./boot-debug.img of=/dev/sdb1
+ 1603  sudo dd if=./system.img of=/dev/sdb2
+ 1604  sudo dd if=./vendor.img of=/dev/sdb3
+ 1605  history |grep pi
+ 1606  ssh pi@192.168.101.28
+ 1607  sudo fdisk -l 
+ 1608  sudo fdisk -l /dev/sdb
+ 1609  sudo fdisk  /dev/sdb
+ 1610  ls
+ 1611  ls -all
+ 1612  ls -lh
+ 1613  history |grep dd
+ 1614  echo ${ROM_BUILDTYPE}
+ 1615  cd ../..
+ 1616  ls
+ 1617  cd ..
+ 1618  ls
+ 1619  cd ..
+ 1620  ls
+ 1621  cd device/brcm/rpi4/
+ 1622  ls
+ 1623  ./scripts/mk-raspi64-large-image.sh 
+ 1624  cat ./scripts/mk-raspi64-large-image.sh 
+ 1625  clea
+ 1626  ls
+ 1627  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img
+ 1628  dd if=~/Desktop/aosp_omni_rpi4.img of=/dev/sdb
+ 1629  sudo dd if=~/Desktop/aosp_omni_rpi4.img of=/dev/sdb
+ 1630  df -lh
+ 1631  sudo fdisk -l
+ 1632  sudo fdisk -l|grep sdb
+ 1633  sudo fdisk /dev/sdb
+ 1634  exit
+ 1635  ls
+ 1636  cd bulk2/
+ 1637  ls
+ 1638  cd aosp-omni-rpi4/out/target/product/rpi4/
+ 1639  ls
+ 1640  cd ../..
+ 1641  ls
+ 1642  cd ../../
+ 1643  ls
+ 1644  sudo dd if=~/Desktop/aosp_omni_rpi4.img of=/dev/sdb
+ 1645  sudo fdisk /dev/sdb
+ 1646  sudo dd if=~/Desktop/aosp_omni_rpi4.img of=/dev/sdb
+ 1647  sudo fdisk /dev/sdb
+ 1648  tune2fs -O project,quota /dev/sdb4
+ 1649  sudo tune2fs -O project,quota /dev/sdb4
+ 1650  sudo fdisk /dev/sdb
+ 1651  ls
+ 1652  sudo tune2fs -O project,quota /dev/sdb4
+ 1653  sudo tune2fs -O project,quota /dev/sdb
+ 1654  sudo tune2fs -O project,quota /dev/sdb4
+ 1655  sudo fdisk /dev/sdb
+ 1656  sudo tune2fs -O project,quota /dev/sdb4
+ 1657  sudo fdisk /dev/sdb
+ 1658  sudo fdisk -l /dev/sdb
+ 1659  sudo tune2fs -O project,quota /dev/sdb4
+ 1660  mkfs.ext4 /dev/sdb4
+ 1661  sudo mkfs.ext4 /dev/sdb4
+ 1662  sudo tune2fs -O project,quota /dev/sdb4
+ 1663  man mkfs.vfat
+ 1664  sudo mkfs.vfat /dev/sdb1
+ 1665  sudo mkfs.ext4 /dev/sdb2
+ 1666  sudo mkfs.ext4 /dev/sdb3
+ 1667  vi device/brcm/rpi4/scripts/mk-raspi64-large-image.sh 
+ 1668  sudo fdisk -l /dev/sdb2 
+ 1669  sudo fdisk -l /dev/sdb 
+ 1670  sudo fdisk  /dev/sdb 
+ 1671  sudo mkfs.ext4 /dev/sdb4 
+ 1672  mount |grep sdb4
+ 1673  umoung /media/chang/1d1685ab-766c-4e01-9102-4eed619ceb18
+ 1674  umount /media/chang/1d1685ab-766c-4e01-9102-4eed619ceb18
+ 1675  history 
+ 1676  sudo fdisk -l /dev/sdb 
+ 1677  p
+ 1678  sudo mkfs.ext4 /dev/sdb4
+ 1679  exit
+ 1680  cd ~/git-root/
+ 1681  ls
+ 1682  rm -rf avahi-0.8
+ 1683  rm -rf avahi-0.8.tar.gz 
+ 1684  ls
+ 1685  git clone git@github.com:omniremotessz/OmniOTA-CD.git
+ 1686  cd OmniOTA-CD/
+ 1687  LS
+ 1688  ls
+ 1689  chmod a+x gradlew
+ 1690  ./gradlew assemble
+ 1691  git branch
+ 1692  git branch -m upstream
+ 1693  git branch
+ 1694  git checkout --track develop
+ 1695  git checkout -b develop
+ 1696  git diff
+ 1697  l
+ 1698  ls
+ 1699  vi app/build.gradle 
+ 1700  clear
+ 1701  ./gradlew assemble
+ 1702  adb connect 192.168.101.7
+ 1703  adb connect 192.168.101.17
+ 1704  find ./ -name *.apk
+ 1705  adb install ./app/build/outputs/apk/release/OmniOTA-release_2.0.2-20201113092056.apk
+ 1706  adb shell
+ 1707  find ./ -name *.apk
+ 1708  adb install ./app/build/outputs/apk/debug/OmniOTA-release_2.0.2-20201113092056.apk
+ 1709  adb devices
+ 1710  adb logcat -c
+ 1711  adb devices
+ 1712  adb logcat -c
+ 1713  adb logcat > omni_ota_update.log
+ 1714  vi omni_ota_update.log 
+ 1715  ps aux|grep dd
+ 1716  cd bulk2/
+ 1717  ls
+ 1718  cd aosp-omni-rpi4/
+ 1719  ls
+ 1720  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh 
+ 1721  vi .envrc
+ 1722  direnv allow
+ 1723  cat ~/git-root/imooc-ffmpeg/chapter8_player/.envrc 
+ 1724  cd -
+ 1725  cd aosp-omni-rpi4/
+ 1726  vi .envrc 
+ 1727  direnv allow
+ 1728  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh 
+ 1729  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i ./target/product/rpi4/
+ 1730  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -h
+ 1731  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i /target/product/rpi4 -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1732  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i /target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1733  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1734  kpartx
+ 1735  sudo apt-get install kpartx
+ 1736  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1737  sudo fdisk -l|grep sdb
+ 1738  sudo dd if=~/Desktop/aosp_omni_rpi4.img of=/dev/sdb
+ 1739  ifconfig
+ 1740  sudo device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1741  cd ..
+ 1742  cd aosp-omni-rpi4/
+ 1743  sudo device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1744  cat .envrc 
+ 1745  export ROM_BUILDTYPE=MICROG
+ 1746  echo ${ROM_BUILDTYPE}
+ 1747  sudo device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1748  reboot
+ 1749  ls
+ 1750  history 
+ 1751  cd bulk2/aosp-omni-rpi4/
+ 1752  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh  -i out/target/product/rpi4/ -b ./vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4.img 
+ 1753  vi device/brcm/rpi4/scripts/mk-raspi64-large-image.sh
+ 1754  sudo mkfs.vfat /dev/mapper/loop0p1 -n boot
+ 1755  fg
+ 1756  mkfs.vfat
+ 1757  clear
+ 1758  sudo mkfs.vfat /dev/mapper/loop0p1 -n boot
+ 1759  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT
+ 1760  sudo mkfs.vfat /dev/mapper/loop0p1 -n boot
+ 1761  ls /dev/mapper/
+ 1762  fg
+ 1763  sudo mkfs.ext4 /dev/mapper/loop0p2 -L system
+ 1764  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT
+ 1765  touch /dev/mapper/loop0p1
+ 1766  sudo touch /dev/mapper/loop0p1
+ 1767  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT
+ 1768  sudo rm -rf /dev/mapper/loop0p1 
+ 1769  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT
+ 1770  man mkfs.vfat
+ 1771  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT -C
+ 1772  man mkfs.vfat
+ 1773  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT -C
+ 1774  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1775  man mkfs.vfat
+ 1776  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1777  partprobe
+ 1778  partprobe -P
+ 1779  sudo partprobe -P
+ 1780  partprobe -h
+ 1781  partprobe -s
+ 1782  losetup --partscan
+ 1783  sudo lsblk
+ 1784  sudo lsblk|grep loop
+ 1785  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1786  fg
+ 1787  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1788  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT -F 32
+ 1789  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1790  losetup
+ 1791  fg
+ 1792  sudo mkfs.fat /dev/mapper/loop0p1 -n BOOT 
+ 1793  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1794  dd if=/dev/zero of=~/Documents/loopback_boot.img bs=128M
+ 1795  dd if=/dev/zero of=~/Documents/loopback_boot.img bs=128M count=1
+ 1796  du -sh ~/Documents/loopback_boot.img 
+ 1797  losetup --help
+ 1798  sudo lopsetup -fP /dev/mapper/loop0p1 ~/Documents/loopback_boot.img 
+ 1799  sudo losetup -fP /dev/mapper/loop0p1 ~/Documents/loopback_boot.img 
+ 1800  sudo losetup  /dev/mapper/loop0p1 ~/Documents/loopback_boot.img 
+ 1801  modprobe loop
+ 1802  sudo losetup  /dev/mapper/loop0p1 ~/Documents/loopback_boot.img 
+ 1803  sudo losetup  /dev/mapper/loop0p1 /home/chang/Documents/loopback_boot.img 
+ 1804  ls /dev/mapper/
+ 1805  lsmod |grep loop
+ 1806  modprobe loop
+ 1807  lsmod |grep loop
+ 1808  sudo lsmod |grep loop
+ 1809  lsmod
+ 1810  sudo lsmod
+ 1811  sudo lsmod|grep loop
+ 1812  sudo losetup  /dev/mapper/loop0p1 /home/chang/Documents/loopback_boot.img 
+ 1813  sudo losetup  /dev/mapper/loop0p1 /home/chang/Documents/loopback_boot.img  -v
+ 1814  sudo losetup -v  /dev/mapper/loop0p1 /home/chang/Documents/loopback_boot.img  
+ 1815  history 
+ 1816  losetup -fP /dev/mapper/loop0p1 ~/Documents/loopback_boot.img
+ 1817  sudo losetup -fP /dev/mapper/loop0p1 ~/Documents/loopback_boot.img
+ 1818  sudo modprobe loop
+ 1819  losetup
+ 1820  ls /dev/mapper/
+ 1821  sudo ls /dev/mapper/
+ 1822  sudo losetup
+ 1823  history 
+ 1824  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1825  sudo mkfs -t vfat /dev/mapper/loop0p1 -n BOOT 
+ 1826  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT 
+ 1827  sudo mkfs.vfat /dev/mapper/loop0p1 =v -n BOOT 
+ 1828  sudo mkfs.vfat /dev/mapper/loop0p1 -n BOOT -v
+ 1829  cat /sys/module/loop/parameters/max_part 
+ 1830  history 
+ 1831  sudo losetup -P /dev/mapper/loop0p1 ~/Documents/loopback_boot.img 
+ 1832  sudo losetup -P /dev/mapper/loop0p3 ~/Documents/loopback_boot.img 
+ 1833  sudo losetup -P /dev/mapper/loop0p4 ~/Documents/loopback_boot.img 
+ 1834  fg
+ 1835  sudo mkfs.vfat /dev/mapper/loop0p1 -n boot
+ 1836  sudo vi /etc/default/grub
+ 1837  sudo update-grub2 
+ 1838  sudo update-grub
+ 1839  sudo reboot
+ 1840  sudo fdisl -l grep sdb
+ 1841  sudo fdisl -l |grep sdb
+ 1842  sudo fdisk -l |grep sdb
+ 1843  exit
+ 1844  losetup 
+ 1845  kpartx --help
+ 1846  man kpartx
+ 1847  cp /tmp/omni.img ~/Desktop/aosp_omni_rpi4.img
+ 1848  kpartx -av ~/Desktop/payload.bin 
+ 1849  file ~/Desktop/payload.bin 
+ 1850  sudo apt-get install pavucontrol
+ 1851  pavucontrol 
+ 1852  exit
+ 1853  ps -aux|grep dd
+ 1854  exit
+ 1855  ssh ip172-18-0-7-buo3vvvp2ffg00ctp8l0@direct.labs.play-with-docker.com
+ 1856  ls /dev/mapper/loop36p1 
+ 1857  mkdir /tmp/mybuild
+ 1858  mount /tmp//mybuild/ /dev/mapper/loop36p1 
+ 1859  sudo mount /tmp//mybuild/ /dev/mapper/loop36p1 
+ 1860  sudo mount  /dev/mapper/loop36p1  /tmp/mybuild/
+ 1861  cd /tmp/mybuild/
+ 1862  ls
+ 1863  cd ..
+ 1864  sudo beyond compare
+ 1865  sudo bcompare 
+ 1866  exit
+ 1867  fdisk -l /dev/sdb
+ 1868  sudo fdisk -l /dev/sdb
+ 1869  cd ~/Downloads/
+ 1870  ls
+ 1871  unzip omni-11-20201105-rpi4-WEEKLY.zip 
+ 1872  ls
+ 1873  cd home/maxl/raspberrypi/
+ 1874  ls
+ 1875  sudo dd if=omni-WEEKLY.img of=/dev/sdb
+ 1876  sudo dd if=~/Desktop/aosp_omni_rpi4_2.img out=/dev/sdb
+ 1877  sudo dd if=~/Desktop/aosp_omni_rpi4_2.img of=/dev/sdb
+ 1878  history 
+ 1879  git diff
+ 1880  history 
+ 1881  exit
+ 1882  history 
+ 1883  cat /sys/module/loop/parameters/max_
+ 1884  cat /sys/module/loop/parameters/max_part 
+ 1885  sudo losetup -fP /dev/mapper/loop0p1 ~/Documents/loopback_boot.img
+ 1886  sudo losetup  /dev/mapper/loop0p1 ~/Documents/loopback_boot.img
+ 1887  sudo losetup -f -P ~/Documents/loopback_boot.img 
+ 1888  losetup
+ 1889  losetup --help
+ 1890  losetup -d /dev/loop36
+ 1891  sudo losetup -d /dev/loop36
+ 1892  cat /dev/mapper/control 
+ 1893  sudo cat /dev/mapper/control 
+ 1894  mkfs.vfat --version
+ 1895  mkfs.vfat -v
+ 1896  fdisk -l
+ 1897  sudo fdisk -l
+ 1898  partx
+ 1899  kpartx --help
+ 1900  ls
+ 1901  cd bulk2/
+ 1902  ls
+ 1903  cd aosp-omni-rpi4/
+ 1904  ls
+ 1905  history |grep update
+ 1906  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh --help
+ 1907  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -h
+ 1908  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh 
+ 1909  vi device/brcm/rpi4/scripts/mk-raspi64-large-image.sh
+ 1910  history 
+ 1911  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -h
+ 1912  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o /tmp/omni.img
+ 1913  y
+ 1914  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o /tmp/omni.img
+ 1915  vi device/brcm/rpi4/scripts/mk-raspi64-large-image.sh 
+ 1916  cd device/brcm/rpi4/
+ 1917  git status
+ 1918  vi scripts/mk-raspi64-large-image.sh 
+ 1919  ls
+ 1920  ./scripts/mk-raspi64-large-image.sh -h
+ 1921  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o /tmp/omni.img
+ 1922  sudo dd if=/tmp/omni.img of=/dev/sdb
+ 1923  git diff
+ 1924  grep dtoverlay ./* -Irn
+ 1925  locate config.txt ./* -Irn
+ 1926  find ./ -name config.txt 
+ 1927  ifconfig
+ 1928  vi scripts/mk-raspi64-large-image.sh 
+ 1929  fg
+ 1930  adb connect 192.168.101.17
+ 1931  adb shell
+ 1932  adb disconnect
+ 1933  adb connect 192.168.101.32
+ 1934  history 
+ 1935  git diff
+ 1936  fg
+ 1937  vi scripts/mk-raspi64-large-image.sh 
+ 1938  fg
+ 1939  git diff
+ 1940  history 
+ 1941  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_2.img
+ 1942  sudo dd if=~/Desktop/aosp_omni_rpi4_2.img of=/dev/sdb
+ 1943  md5sum ~/Desktop/aosp_omni_rpi4.img 
+ 1944  history 
+ 1945  fg
+ 1946  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_3.img
+ 1947  git diff
+ 1948  sudo dd if=~/Desktop/aosp_omni_rpi4_3.img of=/dev/sdb
+ 1949  sudo fidsk -l  /devsdb
+ 1950  sudo fidsk -l  /dev/sdb
+ 1951  sudo fdisk -l  /dev/sdb
+ 1952  sudo fdisk -l  
+ 1953  sudo dd if=~/Desktop/aosp_omni_rpi4_3.img of=/dev/sdb
+ 1954  git diff
+ 1955  fg
+ 1956  vi scripts/mk-raspi64-large-image.sh 
+ 1957  history 
+ 1958  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_3.img
+ 1959  sudo dd if=~/Desktop/aosp_omni_rpi4_3.img of=/dev/sdb
+ 1960  sudo kpartx -av ~/Desktop/aosp_omni_rpi4_3.img 
+ 1961  sudo kpartx -av ~/Desktop/omni-WEEKLY.img 
+ 1962  mkdir /tmp/omni_weekly
+ 1963  sudo mount /dev/mapper/loop37p1 /tmp/omni_weekly/
+ 1964  ls /tmp/
+ 1965  umount /tmp/mybuild 
+ 1966  sudo umount /tmp/mybuild 
+ 1967  sudo umount /tmp/omni_weekly 
+ 1968  sudo mount /dev/mapper/loop36p2 /tmp/mybuild/
+ 1969  sudo mount /dev/mapper/loop37p2 /tmp/omni_weekly/
+ 1970  sudo umount /tmp/omni_weekly 
+ 1971  sudo umount /tmp/mybuild 
+ 1972  sudo mount /dev/mapper/loop36p3 /tmp/mybuild/
+ 1973  sudo mount /dev/mapper/loop37p3 /tmp/omni_weekly/
+ 1974  sudo umount /tmp/mybuild 
+ 1975  sudo umount /tmp/omni_weekly 
+ 1976  sudo mount /dev/mapper/loop36p4 /tmp/mybuild/
+ 1977  sudo mount /dev/mapper/loop37p4 /tmp/omni_weekly/
+ 1978  history 
+ 1979  bcompare -h
+ 1980  sudo mount /dev/mapper/loop36p1 /tmp/mybuild/
+ 1981  sudo mount /dev/mapper/loop37p1 /tmp/omni_weekly/
+ 1982  sudo bcompare 
+ 1983  sudo umount /tmp/omni_weekly 
+ 1984  sudo umount /tmp/mybuild 
+ 1985  sudo mount /dev/mapper/loop36p2 /tmp/mybuild/
+ 1986  sudo mount /dev/mapper/loop37p2 /tmp/omni_weekly/
+ 1987  sudo bcompare 
+ 1988  sudo kpartx -dv ~/Desktop/omni-WEEKLY.img 
+ 1989  sudo kpartx -dv ~/Desktop/aosp_omni_rpi4_3.img 
+ 1990  sudo umount /tmp/omni_weekly 
+ 1991  sudo umount /tmp/mybuild 
+ 1992  sudo kpartx -dv ~/Desktop/aosp_omni_rpi4_3.img 
+ 1993  sudo kpartx -dv ~/Desktop/aosp_omni_rpi4_3.img  -f
+ 1994  fuser /dev/loop36
+ 1995  sudo fuser /dev/loop36
+ 1996  lsof |grep loop36
+ 1997  sudo lsof |grep loop36
+ 1998  ps -aux|grep 2577
+ 1999  reboot
+ 2000  sudo fdisk -l /dev/sdb
+ 2001  cd bulk2/
+ 2002  ls
+ 2003  cd aosp-omni-rpi4/
+ 2004  ls
+ 2005  repo sync
+ 2006  vi .repo/local_manifests/local_manifest.xml 
+ 2007  vi .repo/local_manifests/roomservice.xml 
+ 2008  lunch
+ 2009  source  build/envsetup.sh 
+ 2010  cat build/envsetup.sh 
+ 2011  history 
+ 2012  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_3.img
+ 2013  ./scripts/mk-raspi64-large-image.sh -h
+ 2014  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -h
+ 2015  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_v2.img
+ 2016  make -j 12
+ 2017  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_v3.img
+ 2018  sudo dd if=/home/chang/Desktop/aosp_omni_rpi4_v3.img of=/dev/sdb
+ 2019  history > ~/bulk2/aosp_big_image.history

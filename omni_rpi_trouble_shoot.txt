@@ -1,0 +1,64 @@
+==========================================================
+How to fix the roomservice.xml not generated issue
+==========================================================
+
+ 2006  mkdir aosp-omni-rpi4
+ 2007  cd aosp-omni-rpi4/
+ 2008  repo init -u git://github.com/omnirom/android.git -b android-11
+ 2009  mkdir .repo/local_manifests
+ 2010  ls
+ 2011  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest.xml -P .repo/local_manifests/
+ 2012  cat .repo/local_manifests/local_manifest.xml
+ 2013  repo sync
+ 2014  export ROM_BUILDTYPE=MICROG
+ 2015  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 2016  export ROM_BUILDTYPE=MICROG
+ 2017  export ALLOW_MISSING_DEPENDENCIES=true
+ 2018  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 2019  source build/envsetup.sh
+ 2020  echo ${PRODUCT_EXCLUDE_EXTRA_PACKAGES}
+ 2021  source build/envsetup.sh
+ 2022  lunch omni_rpi4-userdebug
+ 2023  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11 vendor/brcm/
+ 2024  lunch omni_rpi4-userdebug
+ 2025  rm -rf vendor/brcm/rpi4/
+ 2026  repo sync --force-sync
+ 2027  lunch omni_rpi4-userdebug
+ 2028  make -j 12
+
+
+
+
+==========================================================
+How to fix the big-image genertion issue
+==========================================================
+ 2005  repo sync
+ 2006  vi .repo/local_manifests/local_manifest.xml
+ 2007  vi .repo/local_manifests/roomservice.xml
+ 2008  lunch
+ 2009  source  build/envsetup.sh
+ 2010  cat build/envsetup.sh
+ 2011  history
+ 2012  ./scripts/mk-raspi64-large-image.sh -i ../../../out/target/product/rpi4/ -b ../../../vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_3.img
+ 2013  ./scripts/mk-raspi64-large-image.sh -h
+ 2014  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -h
+ 2015  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_v2.img
+ 2016  make -j 12
+ 2017  device/brcm/rpi4/scripts/mk-raspi64-large-image.sh -i out/target/product/rpi4/ -b vendor/brcm/rpi4/proprietary/boot/ -o ~/Desktop/aosp_omni_rpi4_v3.img
+ 2018  sudo dd if=/home/chang/Desktop/aosp_omni_rpi4_v3.img of=/dev/sdb
+ 2019  history > ~/bulk2/aosp_big_image.history
+
+
+
+the steps:
+1. fdisk /dev/mmcblk0
+2. list out the partitions of the sdcard
+3. then remember the begining of the partition block numbers. For my example will be 4982784
+4. press 'd' to delete the 4th partition
+5. press 'n' for new partition
+6. select '4' as re-creating the 4th partition
+7. using 4982784 as begining
+8. press 'N' not to remove the signature because we need to retain the data
+9. press 'w' to save the new settings.
+10. type 'resize2fs /dev/mmcblk0p4
+11. now extract the sdcard... and put back to the pi4

@@ -1,0 +1,1000 @@
+ 1031  adb connect 192.168.101.98
+ 1032  adb shell
+ 1033  avahi-browse _androidtvremote._tcp -v
+ 1034  adb logcat > ~/Desktop/ethernet_s2.log
+ 1035  vi ~/Desktop/ethernet_s2.log 
+ 1036  history 
+ 1037  clear
+ 1038  avahi-browse _androidtvremote._tcp -v
+ 1039  avahi-browse -at
+ 1040  avahi-browse -a
+ 1041  avahi-browse -at
+ 1042  avahi-discover
+ 1043  avahi-browse -at
+ 1044  avahi-browse _androidtvremote._tcp -v
+ 1045  avahi-browse _androidtvremote._tcp -vt
+ 1046  ping _androidtvremote._tcp
+ 1047  ping _androidtvremote._tcp.local
+ 1048  nslookup --help
+ 1049  nslookup -h
+ 1050  nslookup 
+ 1051  ls
+ 1052  cd git-root/
+ 1053  sl
+ 1054  ls
+ 1055  cd mdns/
+ 1056  ls
+ 1057  ./a.out 
+ 1058  ./a.out |grep androidtvremote
+ 1059  ping 192.168.101.98
+ 1060  exit
+ 1061  dmesg 
+ 1062  cat /var/log/kern.log
+ 1063  tail /var/log/kern.log
+ 1064  sudo reboot
+ 1065  cd ~/git-root/ngp/
+ 1066  cd ..
+ 1067  cd cdgo-android/
+ 1068  ls
+ 1069  git branch
+ 1070  git diff
+ 1071  cd ..
+ 1072  ls
+ 1073  cd mdns/
+ 1074  ls
+ 1075  vi mdns.c 
+ 1076  ls
+ 1077  vi mdns.h 
+ 1078  adb logcat > ~/Desktop/op2_ethernet_s2_failed.log
+ 1079  adb connect 192.168.101.98
+ 1080  adb logcat > ~/Desktop/op2_ethernet_s2_failed.log
+ 1081  vi ~/Desktop/op2_ethernet_s2_failed.log 
+ 1082  adb logcat -c
+ 1083  ./a.out 
+ 1084  ping  _androidtvremote._tcp.local.|g
+ 1085  ./a.out |grep http
+ 1086  adb logcat > ~/Desktop/op2_ethernet_s2_failed.log
+ 1087  vi ~/Desktop/op2_ethernet_s2_failed.log 
+ 1088  adb logcat
+ 1089  adb logcat > ~/Desktop/op2_ethernet_s2_failed.log
+ 1090  vi ~/Desktop/op2_ethernet_s2_failed.log 
+ 1091  adb logcat
+ 1092  vi ~/Desktop/op2_ethernet_s2_failed.log 
+ 1093  history 
+ 1094  history |grep avai
+ 1095  history |grep ava
+ 1096  avahi-browse -at
+ 1097  avahi-browse -at _androidtvremote._tcp
+ 1098  avahi-browse  _androidtvremote._tcp
+ 1099  avahi-browse  _androidtvremote._tcp -t
+ 1100  adb disconnect
+ 1101  adb connect 192.168.101.6
+ 1102  adb shell
+ 1103  wireshark-gtk 
+ 1104  sudo wireshark-gtk 
+ 1105  reboot
+ 1106  avahi-browse
+ 1107  avahi-browse -at
+ 1108  avahi-browse -ct
+ 1109  avahi-browse -at
+ 1110  avahi-browse -atp
+ 1111  avahi-browse -b
+ 1112  avahi-browse -atp
+ 1113  avahi-resolve --name adb-064172340131796;_adb._tcp
+ 1114  avahi-resolve --name adb-064172340131796
+ 1115  avahi-discover 
+ 1116  avahi-resolve --name d5b8e9e3-3540-3273-00b9-a694222199a6.local
+ 1117  avahi-browse -at
+ 1118  avahi-browse
+ 1119  avahi-discover 
+ 1120  avahi-browse -at
+ 1121  avahi-resolve Android-2.local
+ 1122  history 
+ 1123  avahi-resolve --name Android-2.local
+ 1124  avahi-resolve --help
+ 1125  avahi-resolve --name Android-2.local -v
+ 1126  man avahi
+ 1127  man avahi-resolve
+ 1128  man avahi-discover 
+ 1129  avahi-browse
+ 1130  avahi-browse --help
+ 1131  avahi-browse -b
+ 1132  avahi-browse -h
+ 1133  avahi-browse -c
+ 1134  avahi-browse -ct
+ 1135  avahi-browse -c
+ 1136  avahi-browse -aptv
+ 1137  avahi-browse -rt
+ 1138  avahi-browse -rt _androidtvremote._tcp
+ 1139  avahi-browse --help
+ 1140  avahi-browse -rt _androidtvremote._tcp
+ 1141  cat /usr/share/doc/wireshark-common/README.Debian
+ 1142  avahi-browse -rt _androidtvremote._tcp
+ 1143  adb connect 192.168.101.6
+ 1144  cd ~/git-root/ngp/
+ 1145  git branch
+ 1146  ls
+ 1147  avahi-browse -h
+ 1148  avahi-browse -d
+ 1149  avahi-browse -b
+ 1150  cd ..
+ 1151  ls
+ 1152  cd AndroidTVLauncher/
+ 1153  git status
+ 1154  git diff
+ 1155  gits tatus
+ 1156  git status
+ 1157  git add .
+ 1158  git commit -m "Remove unnecessary code"
+ 1159  git push
+ 1160  git status
+ 1161  git diff
+ 1162  gti branch
+ 1163  git diff
+ 1164  git status
+ 1165  git commit --amend
+ 1166  git status
+ 1167  git push --force
+ 1168  telnet 192.168.101.6 39573
+ 1169  telnet 192.168.101.6 38129
+ 1170  telnet 192.168.101.6 39929
+ 1171  telnet 192.168.101.6 33701
+ 1172  telnet 192.168.101.6 45023
+ 1173  git branch
+ 1174  git checkout --track mdns
+ 1175  git checkout -b mdns
+ 1176  git status
+ 1177  git branch
+ 1178  git add .
+ 1179  git commit -m "Implement echo server"
+ 1180  git push
+ 1181  git push --set-upstream origin mdns
+ 1182  git branch
+ 1183  git remote
+ 1184  git push --set-upstream modified mdns
+ 1185  avahi-browse -at
+ 1186  avahi-discover 
+ 1187  clear
+ 1188  avahi-browse -at
+ 1189  exit
+ 1190  cd bulk/
+ 1191  ls
+ 1192  cd rpi-omni-aosp/
+ 1193  ls
+ 1194  source  build/envsetup.sh 
+ 1195  source build/envsetup.sh 
+ 1196  repo sync 
+ 1197  exit
+ 1198  cd git-root/
+ 1199  ls
+ 1200  git clone https://partner-android.googlesource.com/platform/vendor/google/tv/broadcaststack
+ 1201  exit
+ 1202  cd bulk/rpi-omni-aosp/
+ 1203  ls
+ 1204  lunch
+ 1205  ls
+ 1206  cd ~/git-root/ngp/
+ 1207  git branch
+ 1208  git checkout  op2-dev
+ 1209  git diff
+ 1210  ./gradlew  clean assembleproductionCdKaonNormalDebug
+ 1211  find ./ -name AndroidManifest.xml
+ 1212  cd NGP-ui/build/
+ 1213  clear
+ 1214  find ./ -name AndroidManifest.xml
+ 1215  vi ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml
+ 1216  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep use-permissions
+ 1217  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission
+ 1218  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F "\""
+ 1219  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F "\"
+ 1220  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"
+ 1221  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"'
+ 1222  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk
+ 1223  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$0}'
+ 1224  clear
+ 1225  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$0}'
+ 1226  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$1}'
+ 1227  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$2}'
+ 1228  clear
+ 1229  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$2}'
+ 1230  clear
+ 1231  cat ./intermediates/merged_manifests/productionCdKaonNormalDebug/AndroidManifest.xml|grep uses-permission | awk -F '"' '{print$2}'
+ 1232  cd ../..
+ 1233  ls
+ 1234  git branch
+ 1235  git log
+ 1236  git show
+ 1237  clear
+ 1238  git log
+ 1239  git status
+ 1240  clear
+ 1241  git log
+ 1242  adb shell
+ 1243  fg
+ 1244  exit
+ 1245  adb logcat > ~/Desktop/nsd_callback_not_working.log
+ 1246  vi ~/Desktop/nsd_callback_not_working.log 
+ 1247  adb logcat -c
+ 1248  adb logcat > ~/Desktop/nsd_callback_not_working.log
+ 1249  vi ~/Desktop/nsd_callback_not_working.log 
+ 1250  cd ~/git-root/AndroidTVLauncher/
+ 1251  git status
+ 1252  git diff
+ 1253  git add .
+ 1254  git commit -m "Finish it"
+ 1255  git push
+ 1256  avahi-browse -at
+ 1257  avahi-browse -at _allenteecho._tcp
+ 1258  avahi-browse -tp _allenteecho._tcp
+ 1259  avahi-browse --help
+ 1260  avahi-browse -r _allenteecho._tcp
+ 1261  ls
+ 1262  git status
+ 1263  git diff
+ 1264  git add README.txt
+ 1265  vi README.txt
+ 1266  adb shell
+ 1267  su
+ 1268  adb shell
+ 1269  ls
+ 1270  cd ~/git-root/ngp/
+ 1271  git status
+ 1272  git branch
+ 1273  adb devices
+ 1274  adb shell
+ 1275  avahi-browse
+ 1276  avahi-browse -atp
+ 1277  avahi-browse --help
+ 1278  avahi-browse -r _androidtvremote._tcp
+ 1279  avahi-browse -apt
+ 1280  avahi-browse -r _androidtvremote._tcp
+ 1281  nslookup _androidtvremote._tcp.local.
+ 1282  cd ~/Desktop/torstein_hdmi_cec/
+ 1283  ls
+ 1284  vi log_dump_2020_11_04_03_57_54.
+ 1285  vi log_dump_2020_11_04_03_57_54.log 
+ 1286  avahi-browse -apt
+ 1287  nslookup googlerpc;_googlerpc._tcp
+ 1288  avahi-browse -r googlerpc;_googlerpc._tcp
+ 1289  avahi-browse -r _googlerpc._tcp
+ 1290  adb disconnect
+ 1291  adb connect 192.168.101.18
+ 1292  adb connect 192.168.101.6
+ 1293  adb shell
+ 1294  cd ~/bulk/
+ 1295  ls
+ 1296  cd aosp/
+ 1297  ls
+ 1298  cd frameworks/
+ 1299  ls
+ 1300  cd ..
+ 1301  ls
+ 1302  cd packages/
+ 1303  cd providers/
+ 1304  ls
+ 1305  cd ../..
+ 1306  ls
+ 1307  cd ..
+ 1308  ls
+ 1309  cd p-tv-dev/
+ 1310  ls
+ 1311  cd packages/
+ 1312  ls
+ 1313  cd providers/
+ 1314  cd ..
+ 1315  ls
+ 1316  grep android.permission.MODIFY_PARENTAL_CONTROLS ./* -Irn
+ 1317  cd ..
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  cd rpi-omni-aosp/
+ 1322  l
+ 1323  ls
+ 1324  source  build/envsetup.sh 
+ 1325  lunch
+ 1326  vi .repo/local_manifests/local_manifest_full.xml 
+ 1327  fg
+ 1328  lunch
+ 1329  repo sync
+ 1330  find android_external_gbm_gralloc ./* -Irn
+ 1331  ssh -p 30001 cxz.mynetgear.com
+ 1332  cd bulk/
+ 1333  ls
+ 1334  cd rpi-omni-aosp/
+ 1335  ls
+ 1336  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1337  echo ${ROM_BUILDTYPE}
+ 1338  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1339  source build/envsetup.sh
+ 1340  lunch 
+ 1341  cat .repo/local_manifests/local_manifest.xml 
+ 1342  source build/envsetup.sh 
+ 1343  lunch 
+ 1344  vi ./device/brcm/rpi4/device.mk 
+ 1345  clear
+ 1346  lunch 
+ 1347  cat .repo/local_manifests/local_manifest.xml 
+ 1348  ls vendor/microg/
+ 1349  lunch
+ 1350  vi device/brcm/rpi4/omni_rpi4.mk 
+ 1351  repo sync 
+ 1352  ls
+ 1353  cd device/brcm/
+ 1354  ls
+ 1355  cd rpi4/
+ 1356  ls
+ 1357  ./scripts/
+ 1358  ls
+ 1359  ls ./scripts/
+ 1360  cat README 
+ 1361  cd ../..
+ 1362  ls
+ 1363  cd ..
+ 1364  ls
+ 1365  hmm
+ 1366  lunch
+ 1367  vi device/brcm/rpi4/device.mk 
+ 1368  fg
+ 1369  vi device/brcm/rpi4/device.mk 
+ 1370  fg
+ 1371  cat device/brcm/rpi4/README 
+ 1372  ls
+ 1373  lunch 
+ 1374  lunch omni_rpi4-userdebug
+ 1375  ls .repo/local_manifests/
+ 1376  xport ROM_BUILDTYPE=MICROG
+ 1377  export ROM_BUILDTYPE=MICROG
+ 1378  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1379  export ALLOW_MISSING_DEPENDENCIES=true
+ 1380  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1381  source build/envsetup.sh
+ 1382  lunch omni_rpi4-userdebug
+ 1383  lunch 
+ 1384  ls
+ 1385  cd device/brcm/
+ 1386  ls
+ 1387  cd rpi4/
+ 1388  ls
+ 1389  pwd
+ 1390  ls
+ 1391  cd ../..
+ 1392  ls
+ 1393  cd ..
+ 1394  ls
+ 1395  cd .repo/
+ 1396  ls
+ 1397  cd local_manifests/
+ 1398  ls
+ 1399  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest_full.xml
+ 1400  ls
+ 1401  rm local_manifest
+ 1402  rm local_manifest.xml 
+ 1403  cd ..
+ 1404  ls
+ 1405  cd ..
+ 1406  ls
+ 1407  sync 
+ 1408  repo sync
+ 1409  vi .repo/local_manifests/local_manifest_full.xml 
+ 1410  repo sync
+ 1411  repo sync --force-sync
+ 1412  fg
+ 1413  ls
+ 1414  lunch 
+ 1415  source build/envsetup.sh 
+ 1416  export ROM_BUILDTYPE=MICROG
+ 1417  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1418  export ALLOW_MISSING_DEPENDENCIES=true
+ 1419  source build/envsetup.sh 
+ 1420  lunch omni_rpi4-userdebug
+ 1421  breakfast
+ 1422  rm -rf external/gbm_gralloc/
+ 1423  repo sync -j 12
+ 1424  vi .repo/local_manifests/local_manifest_full.xml 
+ 1425  repo sync 
+ 1426  lunch omni_rpi4-userdebug
+ 1427  ls
+ 1428  vi .repo/local_manifests/local_manifest_full.xml 
+ 1429  rm -rf ./*
+ 1430  ls
+ 1431  ls -all
+ 1432  rm -rf .repo/
+ 1433  ls
+ 1434  repo init -u git://github.com/omnirom/android.git -b android-10
+ 1435  mkdir .repo/local_manifests
+ 1436  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-10/repo/local_manifest.xml 
+ 1437  mv local_manifest.xml  ./.repo/local_manifests/
+ 1438  repo sync 
+ 1439  cd .repo/
+ 1440  ls
+ 1441  grep android_packages_apps_OmniChromium ./* -Irn
+ 1442  vi ./manifests/omni-extra.xml 
+ 1443  repo sync
+ 1444  cd ..
+ 1445  export ROM_BUILDTYPE=MICROG
+ 1446  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1447  export ALLOW_MISSING_DEPENDENCIES=true
+ 1448  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1449  source build/envsetup.sh
+ 1450  lunch omni_rpi4-userdebug
+ 1451  mkdir -p vendor/brcm/rpi4
+ 1452  lunch omni_rpi4-userdebug
+ 1453  cd device/brcm/rpi4/
+ 1454  grep RP1A ./* -Irn
+ 1455  cd ..
+ 1456  grep RP1A ./* -Irn
+ 1457  cd ../
+ 1458  grep RP1A ./* -Irn
+ 1459  cd ..
+ 1460  grep RP1A ./* -Irn
+ 1461  vi .repo/local_manifests/local_manifest.xml 
+ 1462  cd device/brcm/rpi4/
+ 1463  grep RP1A ./* -Irn
+ 1464  cd ../..
+ 1465  ls
+ 1466  tree .
+ 1467  ls
+ 1468  cd brcm/
+ 1469  ls
+ 1470  cd rpi4/
+ 1471  ls
+ 1472  cd ../..
+ 1473  ../
+ 1474  cd ..
+ 1475  ls
+ 1476  lunch omni_rpi4-userdebug
+ 1477  grep RP1A ./* -Irn
+ 1478  vi build/make/core/definitions.mk 
+ 1479  source build/envsetup.sh 
+ 1480  repo sync
+ 1481  source build/envsetup.sh 
+ 1482  lunch omni_rpi4-userdebug
+ 1483  cd device/brcm/rpi4/
+ 1484  ls
+ 1485  ls *.mk
+ 1486  ls
+ 1487  brunch
+ 1488  lunch
+ 1489  cd ../..
+ 1490  ls
+ 1491  cd ..
+ 1492  ls
+ 1493  lunch
+ 1494  vi .repo/local_manifests/local_manifest.xml 
+ 1495  source build/envsetup.sh 
+ 1496  brunch
+ 1497  lunch
+ 1498  echo ${ROM_BUILDTYPE}
+ 1499  echo ${TEMPORARY_DISABLE_PATH_RESTRICTIONS}
+ 1500  source build/envsetup.sh 
+ 1501  lunch omni_rpi4-userdebug
+ 1502  exit
+ 1503  fg
+ 1504  exit
+ 1505  cd ~/git-root/
+ 1506  ls
+ 1507  git clone https://partner-android.googlesource.com/platform/vendor/google/tv/broadcaststack
+ 1508  eval 'set +o history' 2>/dev/null || setopt HIST_IGNORE_SPACE 2>/dev/null
+ 1509  git clone https://partner-android.googlesource.com/platform/vendor/google/tv/broadcaststack
+ 1510  ls
+ 1511  cd broadcaststack/
+ 1512  ls
+ 1513  git status
+ 1514  git branch
+ 1515  git remote -vv
+ 1516  git pull
+ 1517  git branch
+ 1518  git fetch
+ 1519  git pull
+ 1520  git branch
+ 1521  git fetch
+ 1522  git branch -a
+ 1523  git checout --track origin/q-tv-dev
+ 1524  git checkout --track origin/q-tv-dev
+ 1525  ls
+ 1526  tree .
+ 1527  ls
+ 1528  clear
+ 1529  ls
+ 1530  ndk-build
+ 1531  ~/Android/Sdk/ndk
+ 1532  ls
+ 1533  ls ~/Android/Sdk/ndk
+ 1534  ls
+ 1535  tree -L 2
+ 1536  cd libs/
+ 1537  ls
+ 1538  cd dtvplayer/
+ 1539  ls
+ 1540  ./gradlew  tasks
+ 1541  ls
+ 1542  ./gradlew --all
+ 1543  ./gradlew tasks -a
+ 1544  ls
+ 1545  cd dtvplayer-api/
+ 1546  ls
+ 1547  cd src/
+ 1548  ls
+ 1549  tree
+ 1550  cd main/java/com/google/android/tv/dtvplayer/
+ 1551  ls
+ 1552  vi DtvPlayer.java 
+ 1553  vi DtvPlay
+ 1554  vi DtvPlayer.java 
+ 1555  ls
+ 1556  cd ..
+ 1557  ls
+ 1558  cd ../../../../
+ 1559  ls
+ 1560  cd ..
+ 1561  ls
+ 1562  cd ..
+ 1563  ls
+ 1564  cd main/
+ 1565  ls
+ 1566  cd ../..
+ 1567  ls
+ 1568  cd ..
+ 1569  ls
+ 1570  cd ..
+ 1571  ls
+ 1572  cd sipsi/
+ 1573  ls
+ 1574  cd sipsi-library/src/main/java/com/google/android/tv/sipsi/
+ 1575  ls
+ 1576  cd ~
+ 1577  ls
+ 1578  vi ~/Downloads/Wake\ up\ Box\ from\ Standby\ fail\ to\ tune\ to\ DVB\ channel.txt 
+ 1579  clear
+ 1580  avahi-browse -apt
+ 1581  cd git-root/leixiaohua-ffmpeg/
+ 1582  ls
+ 1583  cd CDxFFmpeg/
+ 1584  ls
+ 1585  cat play_cd_trailer.sh 
+ 1586  ./play_cd_trailer.sh 
+ 1587  cat play_cd_trailer.sh 
+ 1588  ssh -p 30002 pi@cxz.mynetgear.com
+ 1589  exit
+ 1590  cd bulk/
+ 1591  ls
+ 1592  cd aosp_10/
+ 1593  ls
+ 1594  repo sync
+ 1595  source build/envsetup.sh 
+ 1596  hmm
+ 1597  lunch
+ 1598  make -j12
+ 1599  ls build/make/target/product/
+ 1600  emulator
+ 1601  cd build/
+ 1602  ls
+ 1603  find ./ -name *.bin
+ 1604  cd ..
+ 1605  find ./ -name *.bin
+ 1606  sudo apt-get install qemu-kvm 
+ 1607  sudo adduser change kvm
+ 1608  sudo adduser chang kvm
+ 1609  emulator
+ 1610  id
+ 1611  id|grep kvm
+ 1612  su
+ 1613  su ls
+ 1614  sudo ls
+ 1615  id
+ 1616  cd build/
+ 1617  ls
+ 1618  tree .
+ 1619  tree |grep system
+ 1620  tree |grep img
+ 1621  cd ..
+ 1622  ls
+ 1623  cd out/
+ 1624  cd target/
+ 1625  ls
+ 1626  find ./ -name *.bin
+ 1627  find ./ -name *system*
+ 1628  ls
+ 1629  cd product/vsoc_x86/
+ 1630  ls
+ 1631  ls -all *.img
+ 1632  ls -lh *.img
+ 1633  file system.img 
+ 1634  unyafss
+ 1635  sudo apt-get install unyaffs
+ 1636  man unyaffs
+ 1637  cd /tmp/
+ 1638  ls
+ 1639  mkdir ~/Desktop/aosp_imgs
+ 1640  cd ~/Desktop/aosp_imgs/
+ 1641  cd ~/bulk/aosp_10/out/target/product/vsoc_x86/
+ 1642  ls
+ 1643  cp ./*.img ~/Desktop/aosp_imgs/
+ 1644  cd ~/Desktop/aosp_imgs/
+ 1645  ls
+ 1646  file system.img 
+ 1647  mkdir ./mount
+ 1648  mount ./system.img ./mount/
+ 1649  sudo mount ./system.img ./mount/
+ 1650  cd mount/
+ 1651  ls
+ 1652  cd system/ap
+ 1653  cd system/app/
+ 1654  ls
+ 1655  echo hello>hello.txt
+ 1656  exit
+ 1657  cd ~/Desktop/
+ 1658  ls
+ 1659  file payload.bin 
+ 1660  ls
+ 1661  exit
+ 1662  cd bulk/
+ 1663  ls
+ 1664  cd movie/
+ 1665  ls
+ 1666  cd ..
+ 1667  ls
+ 1668  cd music/
+ 1669  ls
+ 1670  tree .
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  rm -rf music/
+ 1675  cd git-root/broadcaststack/
+ 1676  ls
+ 1677  cd libs/dtvplayer/
+ 1678  ls
+ 1679  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1680  ls
+ 1681  vi DtvChannelInfo.java 
+ 1682  vi DtvPlayer.java 
+ 1683  cd ../../..
+ 1684  ls
+ 1685  cd ../../../../..
+ 1686  ls
+ 1687  cd .
+ 1688  cd ../
+ 1689  cd ..
+ 1690  find ./ -name *demo* 
+ 1691  history 
+ 1692  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1693  cd libs/
+ 1694  cd dtvplayer-api/src/main/java/com/google/android/tv/dtvplayer/
+ 1695  ls
+ 1696  dtvplayer/
+ 1697  ls
+ 1698  cd dtvrecorder/
+ 1699  ls
+ 1700  cd library/src/javadoc/
+ 1701  ls
+ 1702  tre .
+ 1703  tree .
+ 1704  cd uml/
+ 1705  ls
+ 1706  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1707  java -testdot -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1708  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1709  java -jar ~/Downloads/plantuml.1.2020.19.jar  -testdot
+ 1710  git status
+ 1711  nautilus .
+ 1712  git status
+ 1713  rm -rf DtvRecorder_states.png 
+ 1714  git status
+ 1715  exit
+ 1716  cd git-root/ngp/
+ 1717  git branch
+ 1718  git checkout release/1.0.95000
+ 1719  exit
+ 1720  cd git-root/broadcaststack/
+ 1721  ls
+ 1722  cd libs/
+ 1723  ls
+ 1724  cd dtvrecorder/
+ 1725  ls
+ 1726  cd library/src/main/java/com/google/android/tv/dtvrecorder/
+ 1727  ls
+ 1728  cd ./..
+ 1729  ls
+ 1730  cd ../..
+ 1731  ls
+ 1732  cd ../
+ 1733  ls
+ 1734  cd ../../../
+ 1735  ls
+ 1736  cd ../
+ 1737  ls
+ 1738  cd ..
+ 1739  ls
+ 1740  find ./ -name *api*
+ 1741  cd dtvrecorder/library/src/main/java/com/google/android/tv/dtvrecorder/
+ 1742  ls
+ 1743  cat package-info.java 
+ 1744  ls
+ 1745  vi DtvRecorder.java 
+ 1746  ls
+ 1747  vi DtvRecorder.java 
+ 1748  cd ~/Downloads/
+ 1749  find ./ -name *0004-Revert-Ignores-protected-broadcasts-if-not-priv-app-.bulletin.patch*
+ 1750  vi ./bulletin_2020_09_preview/patches/android-9.0.0_r1/platform/frameworks/base/0004-Revert-Ignores-protected-broadcasts-if-not-priv-app-.bulletin.patch
+ 1751  cd ~/bulk/
+ 1752  cd aosp_10/
+ 1753  ls
+ 1754  cd frameworks/ser
+ 1755  cd frameworks/
+ 1756  ls
+ 1757  cd  ..
+ 1758  find ./ -name AndroidPackage.java
+ 1759  cd frameworks/
+ 1760  find ./ -name AndroidPackage.java
+ 1761  adb disconnect
+ 1762  cdd ~
+ 1763  cd ~
+ 1764  ls
+ 1765  adb connect 192.168.101.17
+ 1766  adb shell
+ 1767  adb pull /sdcard/Download/SCIService.apk
+ 1768  mkdir ~/Desktop/sci
+ 1769  cd ~/Desktop/sci/
+ 1770  ls
+ 1771  mv ~/SCIService.apk ./
+ 1772  ls
+ 1773  unzip SCIService.apk 
+ 1774  nautilus .
+ 1775  vi AndroidManifest.xml 
+ 1776  adb shell
+ 1777  nautilus .
+ 1778  adb shell
+ 1779  fg
+ 1780  ls
+ 1781  adb pull /sdcard/Download/base.apk ./
+ 1782  ls
+ 1783  mv base.apk netflix.apk
+ 1784  nautilus .
+ 1785  history 
+ 1786  cd bulk/omni-aosp
+ 1787  ls
+ 1788  ls .repo/local_manifests/
+ 1789  nautilus .repo/local_manifests/
+ 1790  cd ..
+ 1791  ls
+ 1792  cd aosp_10/
+ 1793  ls
+ 1794  lunch
+ 1795  source  build/envsetup.sh 
+ 1796  exit
+ 1797  cd bulk/omni-aosp-full/
+ 1798  ls
+ 1799  vi .repo/local_manifests/local_manifest_full.xml 
+ 1800  ls
+ 1801  repo sync
+ 1802  exit
+ 1803  cd bulk/
+ 1804  ls
+ 1805  df
+ 1806  df -lh
+ 1807  cd omni-aosp
+ 1808  ls
+ 1809  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11
+ 1810  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11 vendor/brcm/
+ 1811  cd vendor/brcm/rpi4/
+ 1812  ls
+ 1813  cd ..
+ 1814  ls
+ 1815  cd ..
+ 1816  ls
+ 1817  lunch
+ 1818  ls
+ 1819  export ROM_BUILDTYPE=MICROG
+ 1820  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1821  source build/envsetup.sh 
+ 1822  lunch omni_rpi4-userdebug
+ 1823  repo sync
+ 1824  vi .repo/local_manifests/roomservice.xml 
+ 1825  rm -rf vendor/brcm/rpi4/
+ 1826  ls
+ 1827  repo sync
+ 1828  repo sync --force-sync
+ 1829  lunch omni_rpi4-userdebug
+ 1830  make -j 12
+ 1831  brunch omni_rpi4-userdebug
+ 1832  ls /home/chang/bulk/omni-aosp/out/target/product/rpi4/
+ 1833  vi .repo/local_manifests/local_manifest.xml 
+ 1834  cd vendor/microg/
+ 1835  ls
+ 1836  tree .
+ 1837  cd ../../
+ 1838  ls
+ 1839  history 
+ 1840  make -j 12
+ 1841  cd ../
+ 1842  ls
+ 1843  cd omni-aosp-full/
+ 1844  repo sync
+ 1845  cd ../omni-aosp
+ 1846  ls
+ 1847  vi external/mesa3d/src/compiler/spirv/spirv_info_c.py 
+ 1848  fg
+ 1849  vi external/mesa3d/src/compiler/nir/nir_builder_opcodes_h.py
+ 1850  pip install Mako
+ 1851  pip --version
+ 1852  make -j 12
+ 1853  history > ~/Desktop/omni-rpi-aosp.history
+ 1854  sudo halt -p
+ 1855  cd bulk/
+ 1856  ls
+ 1857  cd aosp_10/
+ 1858  ls
+ 1859  source  build/envsetup.sh 
+ 1860  lunch
+ 1861  cd bulk/
+ 1862  ls
+ 1863  cd omni-aosp/
+ 1864  ls
+ 1865  source build/envsetup.sh 
+ 1866  lunch 
+ 1867  java -jar ~/Downloads/plantuml.1.2020.19.jar 
+ 1868  java -jar ~/Downloads/plantuml.1.2020.19.jar  --help
+ 1869  cd .repo/manifests
+ 1870  ls
+ 1871  vi default.xml 
+ 1872  cd ..
+ 1873  ls
+ 1874  cd local_manifests/
+ 1875  ls
+ 1876  lw
+ 1877  ls
+ 1878  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest_full.xml
+ 1879  ls
+ 1880  cd ../..
+ 1881  ls
+ 1882  repo sync
+ 1883  find ./ -name *Provision* 
+ 1884  find ./ -name *mesa3d*
+ 1885  vi .repo/local_manifests/local_manifest_full.xml 
+ 1886  repo sync
+ 1887  repo sync --force-sync
+ 1888  history 
+ 1889  source build/envsetup.sh 
+ 1890  lunch omni_rpi4-userdebug
+ 1891  brunch omni_rpi4-userdebug
+ 1892  repo sync
+ 1893  lunch
+ 1894  find ./ -name "gralloc" 
+ 1895  df -lh
+ 1896  cd ..
+ 1897  ls
+ 1898  ls -all
+ 1899  cd ~/git-root/rcu-ota-gui/
+ 1900  ls
+ 1901  cd ~/Desktop/torstein_hdmi_cec/
+ 1902  ls
+ 1903  vi log_dump_2020_11_04_03_57_54.log 
+ 1904  cd ~/git-root/rcu-ota-gui/
+ 1905  ls
+ 1906  git diff
+ 1907  git status
+ 1908  git diff
+ 1909  ./gradlew tasks
+ 1910  ./gradlew assemble
+ 1911  find ./ -name *.apk
+ 1912  cp ./app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111182853.apk ~/Desktop/FW03-OmniOTA-release_2.0.1-20201111182853.apk
+ 1913  git diff
+ 1914  ./gradlew clean assemble
+ 1915  find ./ -name *.apk
+ 1916  ./gradlew clean assemble
+ 1917  find ./ -name *.apk
+ 1918  cp ./app/build/outputs/apk/release/OmniOTA-release_2.0.1-20201111183106.apk ~/Desktop/FW05-OmniOTA-release_2.0.1-20201111183106.apk
+ 1919  cd ~/Desktop/
+ 1920  ls
+ 1921  mkdir OmniOTA
+ 1922  cd OmniOTA/
+ 1923  mv ../FW0* ./
+ 1924  ls
+ 1925  adb install FW05-OmniOTA-release_2.0.1-20201111183106.apk 
+ 1926  ls
+ 1927  rm -rf ./*
+ 1928  cp ~/git-root/rcu-ota-gui/app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111183106.apk ./FW05-OmniOTA-release_2.0.1-20201111183106.apk 
+ 1929  ls
+ 1930  cd -
+ 1931  cd ~/git-root/rcu-ota-gui/
+ 1932  ls
+ 1933  ./gradlew clean assemble
+ 1934  git diff
+ 1935  find ./ -name *.apk
+ 1936  cp ./app/build/outputs/apk/debug/OmniOTA-release_2.0.1-20201111184340.apk ~/Desktop/OmniOTA/FW03-OmniOTA-release_2.0.1-20201111184340.apk
+ 1937  cd ~/Desktop/OmniOTA/
+ 1938  ls
+ 1939  adb logcat -c
+ 1940  adb logcat > ./ota_failed.log
+ 1941  vi ota_failed.log 
+ 1942  ls
+ 1943  adb logcat -c 
+ 1944  adb logcat > ota_failed2.log
+ 1945  vi ota_failed2.log 
+ 1946  adb disconnect
+ 1947  adb connect 192.168.101.6
+ 1948  adb connect 192.168.101.18
+ 1949  adb connect 192.168.101.5
+ 1950  adb connect 192.168.101.4
+ 1951  adb shell
+ 1952  ls
+ 1953  cd ~/bulk/
+ 1954  ls
+ 1955  cd omni-aosp/
+ 1956  ls
+ 1957  history 
+ 1958  cd ..
+ 1959  ls
+ 1960  rm -rf omni-aosp/
+ 1961  adb shell input Trumpisidiot123
+ 1962  adb shell input text Trumpisidiot123
+ 1963  ls
+ 1964  clear
+ 1965  mkdir omni-aosp
+ 1966  cd omni-aosp/
+ 1967  ls
+ 1968  repo init -u git://github.com/omnirom/android.git -b android-11
+ 1969  mkdir .repo/local_manifests
+ 1970  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest.xml -P .repo/local_manifests/
+ 1971  repo sync
+ 1972  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 1973  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 1974  lunch omni_rpi4-userdebug
+ 1975  history 
+ 1976  export ROM_BUILDTYPE=MICROG
+ 1977  source build/envsetup.sh
+ 1978  history 
+ 1979  lunch omni_rpi4-userdebug
+ 1980  ls .repo/local_manifests/
+ 1981  cd ../
+ 1982  ls
+ 1983  mkdir omni-rpi4-aosp
+ 1984  mv omni-rpi4-aosp/ omni-aosp-full
+ 1985  cd omni-aosp-full/
+ 1986  ls
+ 1987  repo init -u git://github.com/omnirom/android.git -b android-11
+ 1988  mkdir .repo/local_manifests
+ 1989  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest_full.xml -P .repo/local_manifests/
+ 1990  repo sync
+ 1991  vi .repo/local_manifests/local_manifest_full.xml 
+ 1992  clear
+ 1993  repo sync
+ 1994  ls
+ 1995  mkdir bulk
+ 1996  mkdir bulk2
+ 1997  ls
+ 1998  vi /etc/fstab
+ 1999  sudo vi /etc/fstab
+ 2000  reboot
+ 2001  ls
+ 2002  cd bulk2/
+ 2003  ls
+ 2004  rm -rf lost+found/
+ 2005  ls
+ 2006  mkdir aosp-omni-rpi4
+ 2007  cd aosp-omni-rpi4/
+ 2008  repo init -u git://github.com/omnirom/android.git -b android-11
+ 2009  mkdir .repo/local_manifests
+ 2010  ls
+ 2011  wget https://raw.githubusercontent.com/maxwen/android_device_brcm_rpi4/android-11/repo/local_manifest.xml -P .repo/local_manifests/
+ 2012  cat .repo/local_manifests/local_manifest.xml 
+ 2013  repo sync
+ 2014  export ROM_BUILDTYPE=MICROG
+ 2015  export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+ 2016  export ROM_BUILDTYPE=MICROG
+ 2017  export ALLOW_MISSING_DEPENDENCIES=true
+ 2018  export PRODUCT_EXCLUDE_EXTRA_PACKAGES=true
+ 2019  source build/envsetup.sh
+ 2020  echo ${PRODUCT_EXCLUDE_EXTRA_PACKAGES}
+ 2021  source build/envsetup.sh
+ 2022  lunch omni_rpi4-userdebug
+ 2023  git clone https://github.com/maxwen/proprietary_vendor_brcm -b android-11 vendor/brcm/
+ 2024  lunch omni_rpi4-userdebug
+ 2025  rm -rf vendor/brcm/rpi4/
+ 2026  repo sync --force-sync
+ 2027  lunch omni_rpi4-userdebug
+ 2028  make -j 12
+ 2029  history 
+ 2030  history > ../aosp_omni_rpi4.history
